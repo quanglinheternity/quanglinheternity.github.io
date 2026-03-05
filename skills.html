@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills | Nguyen Quang Linh</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">N<span>QL</span></div>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburg"><i class="fa-solid fa-bars"></i></label>
+
+        <div class="nav-container">
+            <div class="links">
+                <a href="index.html" data-i18n="nav-home">Home</a>
+                <a href="about.html" data-i18n="nav-about">About Me</a>
+                <a href="skills.html" data-i18n="nav-skills">Skills</a>
+                <a href="projects.html" data-i18n="nav-projects">Projects</a>
+            </div>
+        </div>
+
+        <div class="nav-content">
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="vi">VI</button>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <a href="index.html" data-i18n="nav-home">Home</a>
+            <a href="about.html" data-i18n="nav-about">About Me</a>
+            <a href="skills.html" data-i18n="nav-skills">Skills</a>
+            <a href="projects.html" data-i18n="nav-projects">Projects</a>
+        </div>
+    </nav>
+
+    <section>
+        <div class="main-container">
+            <div class="content" style="width: 100%;">
+                <div class="projects-header" data-aos="fade-down" data-aos-duration="1200">
+                    <h1><span data-i18n="skills-title">Technical </span><span data-i18n="skills-span">Skills</span></h1>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Backend -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-duration="1000">
+                        <h3><i class="fa-solid fa-server"></i> <span data-i18n="skills-backend">Backend
+                                Development</span></h3>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Java / Spring Boot</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PHP / Laravel</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">RESTful API / JWT</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">WebSocket</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Frontend -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-duration="1000">
+                        <h3><i class="fa-solid fa-code"></i> <span data-i18n="skills-frontend">Frontend
+                                Development</span></h3>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">ReactJS</span>
+                                <span class="skill-percentage">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">TailwindCSS / Bootstrap</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Database -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-duration="1000">
+                        <h3><i class="fa-solid fa-database"></i> <span data-i18n="skills-db">Database & Caching</span>
+                        </h3>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Redis Caching</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- DevOps -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-duration="1000">
+                        <h3><i class="fa-solid fa-cloud"></i> <span data-i18n="skills-devops">DevOps & Deployment</span>
+                        </h3>
+
+                        <div class="skill-tags">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Docker Compose</span>
+                            <span class="skill-tag">Nginx</span>
+                            <span class="skill-tag">Cloudflare Tunnel</span>
+                            <span class="skill-tag">Linux</span>
+                            <span class="skill-tag">Git / GitHub</span>
+                        </div>
+                    </div>
+
+
+                    <!-- Architecture -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-duration="1000">
+                        <h3><i class="fa-solid fa-diagram-project"></i> <span data-i18n="skills-arch">Architecture &
+                                Concepts</span></h3>
+
+                        <div class="skill-tags">
+                            <span class="skill-tag">OOP</span>
+                            <span class="skill-tag">MVC Pattern</span>
+                            <span class="skill-tag">System Design (Basic)</span>
+                            <span class="skill-tag">API Design</span>
+                            <span class="skill-tag">Query Optimization</span>
+                            <span class="skill-tag">Redis Caching</span>
+                            <span class="skill-tag">FCM</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; Nguyen Quang Linh. <span data-i18n="footer-rights">All rights reserved.</span>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+
+</html>
